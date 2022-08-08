@@ -1,0 +1,18 @@
+*{
+
+  margin: 0;
+  font-family: 'Fira sans',sans-serif;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+
+}
+tbody{
+  font-size: 20px;
+}
