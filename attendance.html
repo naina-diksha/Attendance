@@ -16,44 +16,39 @@
 <main>
   <section class="Att-table">
     <table cellspacing="20" align="center" width="70%">
-      <tbody>
+      <tbody id="tableBody">
     <tr>
     <td>Name</td>
     <td>Roll No.</td>
     <td>Attendance</td>
+    <td></td>
     <td>Action</td>
     </tr>
+
+                <tr>
+            <td><input type="text" class="list-a" value="" readonly/></td>
+            <td><input type="text" class="list-b" value="" readonly/></td>
+
+            <td><input type="text" class="list-c" value="Present" readonly/></td>
+            <td></td>
+            <div id="actions">
+
+            <td><button class="delete">Delete</button></td>
+            </tr>
+
+
+
     </tbody>
     </table>
-
-    <div id="list">
-      <div class="list">
-        <div class="content">
-          <table cellspacing="20" align="center" width="70%">
-            <tbody>
-          <tr>
-          <td><input type="text" class="text" value="Name" readonly/></td>
-          <td><input type="text" class="text" value="Roll No." readonly/></td>
-          <td><input type="text" class="text" value="Present" readonly/></td>
-          <td><button class="delete">Delete</button></td>
-          </tr>
-          </tbody>
-          </table>
-
-        </div>
-      </div>
-    </div>
   </section>
 
 
 
 
   <form id="new-file">
-    <button type="button" id="Name">Name</button>
-    <input type="text" id="new-name"><br>
-    <button type="button" id="RollNo">Roll No.</button>
-    <input type="text" id="new-roll"><br>
-    <input type="submit" name="new-submit" value="ADD"/>
+    <input type="text" id="new-name" placeholder="Name"><br>
+    <input type="text" id="new-roll" placeholder="Roll No."><br>
+    <input type="submit" id="new-submit" value="ADD"/>
   </form>
 </main>
 <script src="main.js" charset="utf-8"></script>
